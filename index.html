@@ -253,6 +253,14 @@
             .span21 {
                 grid-column: span 2;
             }
+            .span35 {
+                flex: 0 0 60%;
+                width: 60%;
+            }
+            .span25 {
+                flex: 0 0 40%;
+                width: 40%;
+            }
             #i2v .author {
                 position: absolute;
                 left: 16px;
@@ -942,7 +950,7 @@
             </div>
             <div class="grid">
                 <div class="video-player audio-control">
-                    <video muted loop playsinline preload="none" src="all_demos/2-kitchen-real-en.mp4"></video>
+                    <video muted loop playsinline preload="none" src="all_demos/1-gesture-aigc-en.mp4"></video>
                 </div>
                 <div class="video-player audio-control span22">
                     <video muted loop playsinline preload="none" src="all_demos/2-real-en-2.mp4"></video>
@@ -966,28 +974,28 @@
         <section id="audio">
             <div class="text">
                 <h1>
-                    Support for AIGC Input
+                    Excellent Interactivity
                 </h1>
             </div>
             <div class="grid">
-                
-                <div class="video-player audio-control">
-                    <video muted loop playsinline preload="none" src="all_demos/1-gesture-aigc-en.mp4"></video>
-                </div>
+
                 <div class="video-player audio-control span22">
                     <video muted loop playsinline preload="none" src="all_demos/2-cowboy-en.mp4"></video>
                 </div>
                 <div class="video-player audio-control">
-                    <video muted loop playsinline preload="none" src="all_demos/1-camera-aigc-en.mp4"></video>
+                    <video muted loop playsinline preload="none" src="all_demos/2-pool-en.mp4"></video>
                 </div>
                 <div class="video-player audio-control">
-                    <video muted loop playsinline preload="none" src="all_demos/3-doubao-en.mp4"></video>
+                    <video muted loop playsinline preload="none" src="all_demos/2-detective-en.mp4"></video>
+                </div>
+                <div class="video-player audio-control">
+                    <video muted loop playsinline preload="none" src="all_demos/2-weather-en.mp4"></video>
                 </div>
                 <div class="video-player audio-control span22">
                     <video muted loop playsinline preload="none" src="all_demos/2-playmate-en.mp4"></video>
                 </div>
                 <div class="video-player audio-control">
-                    <video muted loop playsinline preload="none" src="all_demos/2-singing-en.mp4"></video>
+                    <video muted loop playsinline preload="none" src="all_demos/3-doubao-en.mp4"></video>
                 </div>
             </div>
             <div class="audio-button audio-button-mobile"></div>
@@ -1001,10 +1009,7 @@
             </div>
             <div class="grid">
                 <div class="video-player audio-control">
-                    <video loop playsinline preload="none" muted src="all_demos/2-detective-en.mp4"></video>
-                </div>
-                <div class="video-player audio-control">
-                    <video loop playsinline preload="none" muted src="all_demos/2-detective-jp.mp4"></video>
+                    <video loop playsinline preload="none" muted src="all_demos/2-singing-en.mp4"></video>
                 </div>
                 <div class="video-player audio-control">
                     <video loop playsinline preload="none" muted src="all_demos/2-detective-zh.mp4"></video>
@@ -1012,11 +1017,13 @@
                 <div class="video-player audio-control">
                     <video loop playsinline preload="none" muted src="all_demos/2-weather-jp.mp4"></video>
                 </div>
-                <div class="video-player audio-control  span22">
+            </div>
+            <div class="flex" style="margin-top: 16px;">
+                <div class="video-player audio-control span35">
                     <video loop playsinline preload="none" muted src="all_demos/4-talk-zh.mp4"></video>
                 </div>
-                <div class="video-player audio-control">
-                    <video loop playsinline preload="none" muted src="all_demos/2-weather-en.mp4"></video>
+                <div class="video-player audio-control span25">
+                    <video loop playsinline preload="none" muted src="all_demos/3-dog-zh.mp4"></video>
                 </div>
             </div>
             <div class="audio-button audio-button-mobile"></div>
@@ -1055,7 +1062,7 @@
                   <div class="content has-text-justified">
                     <p>
                         In this work, we introduce AnyTalker, an audio-driven framework for generating multi-person talking videos. 
-                        It proposes a flexible multi-stream structure to scale identities while ensuring seamless inter-identity interactions. 
+                        It presents a novel multi-stream structure called Audio-Face Cross Attention Layer that enables identity scaling while guaranteeing seamless cross-identity interactions. 
                     </p>
                     <div class="column">
                       <img src="static/method.png" width="100%"/>
